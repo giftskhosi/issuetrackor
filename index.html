@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Issue Tracker</title>
+    <link rel="stylesheet" href="stylep.css">
+</head>
+<body onload="showIssues()">
+    <div class="container">
+        <h1>Javascript IssueTracker <small>by Mthokozisi Sekhosana</small></h1>
+        <div class="jumbo">
+            <h3>Add New Issue:</h3>
+            <form id="issueInputForm">
+                <div class="form-group">
+                    <label for="issueDescInput">Description:</label>
+                    <input type="text" class="form-control" id="issueDescInput" placeholder="Describe you issue...">
+                </div>
+                <div class="form-group">
+                    <label for="issueSeverityInput">Severity: </label>
+                    <select id="issueSeverityInput" class="form-control">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="issueAssignedToInput">Assigned To: </label>
+                    <input type="text" class="form-text" id="issueAssignedToInput" placeholder="Enter responsible ...">
+                </div>
+                <button type="submit" id="btnSubmit" class="btnSubmit">Add</button>
+            </form>
+        </div>
+        <div id="issuesList">
+        </div>
+        <div class="footer">
+            <p>&copy CodingMthokozisiWay.com</p>
+        </div>
+    </div>
+    
+
+    <script src="scriptp.js"></script>
+</body>
+</html>

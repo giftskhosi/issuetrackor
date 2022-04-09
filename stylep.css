@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: seashell;
+}
+
+.container {
+    width: 850px;
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    background-color: rgba(15, 15, 49, 0.2);
+    color: #fff;
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(22, 22, 109, 0.2);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(65, 63, 63);
+    margin-bottom: 2rem;
+}
+
+.jumbo {
+    width: 500px;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.jumbo h3{
+    font-size: 30px;
+    margin: 1rem;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.form-group {
+    font-size: 20px;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 9px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+#btnSubmit {
+    width: 94%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnSubmit:hover {
+    background-color: rgb(125, 151, 161);
+    color: rgb(27, 0, 124);
+    transition: all 0.9s ease;
+}
+
+#issues {
+    color: rgb(201, 118, 9);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.issue-counter {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.issue-title {
+    font-size: 30px;
+    margin-bottom: 0.3rem;
+}
+.issue-severity {
+    font-size: 25px;
+    margin-bottom: 0.3rem;
+}
+.issue-assign {
+    font-size: 15px;
+    margin-bottom: 0.3rem;
+}
+.issue-btn {
+    width: 45%;
+    margin-top: 0.5rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 9px;
+}
+
+.issue-btn:hover {
+    background-color: chocolate;
+    color: darkgreen;
+    transition: all 0.9s ease;
+}
